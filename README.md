@@ -10,7 +10,7 @@ This project applies advanced data analytics and machine learning techniques to 
 
 ## Project Overview
 
-Over the course of 12 weeks, I completed end-to-end data preparation, exploratory analysis, and model development. This project covers:
+Over the course of 12 weeks, I completed end-to-end data preparation, exploratory analysis, and model development, with core analysis completed during Weeks 2, 4, 6, 9, and 11. This project covers:
 
 - **Data Cleaning & Preprocessing**:  
 Handled missing values, outliers, duplicates, categorical encoding, and class imbalance issues.
