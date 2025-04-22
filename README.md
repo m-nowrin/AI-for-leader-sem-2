@@ -4,11 +4,9 @@ This project applies advanced data analytics and machine learning techniques to 
 - **USA Real Estate Dataset** (over 1 million listings)
 - **Austin, TX House Listings Dataset** (15,000 regional listings)
 - **Inside Airbnb Dataset** (75+ variables on rental properties)
-## Key Skills Demonstrated:
-- Data cleaning and preprocessing (pandas, NumPy)
-- Exploratory Data Analysis (EDA)
-- Visualization (Matplotlib, Seaborn)
-- Business Insights for real estate investment
+
+**⚠️ Desclaimer: This notebook is designed to run in a Jupyter environment locally. Datasets are not included in this repo due to size.**
+
 
 ## Project Overview
 
@@ -33,6 +31,15 @@ Compared model performance using R² scores, RMSE, and cross-validation.
 
 ---
 
+## Technologies Used
+
+- Python (Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn)  
+- Jupyter Notebook (via Anaconda Navigator)  
+- Machine Learning: Linear Regression, Random Forest, PCA, Clustering  
+- Git & GitHub
+
+---
+
 ## Key Findings
 
 - Location, living area, and number of bathrooms are consistently strong predictors of real estate value.
@@ -48,4 +55,3 @@ Compared model performance using R² scores, RMSE, and cross-validation.
 - [Austin Housing Prices](https://www.kaggle.com/datasets/ericpierce/austinhousingprices)
 - [USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 
-**This notebook is designed to run in a Jupyter environment locally. Datasets are not included in this repo due to size.**
