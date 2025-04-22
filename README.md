@@ -48,3 +48,4 @@ Compared model performance using R² scores, RMSE, and cross-validation.
 - [Austin Housing Prices](https://www.kaggle.com/datasets/ericpierce/austinhousingprices)
 - [USA Real Estate Dataset](https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset)
 
+**This notebook is designed to run in a Jupyter environment locally. Datasets are not included in this repo due to size.**
