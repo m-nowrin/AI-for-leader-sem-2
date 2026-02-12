@@ -2,8 +2,11 @@
 This project explores how property prices and rental performance are shaped across two different markets: traditional residential housing and short-term rentals. The work combines exploratory analysis with machine learning to understand what actually drives value, how predictable these markets are, and where simple models break down.
 
 **Quick Summary**
+
 **Markets analyzed**: Austin housing and Airbnb listings
+
 **Main tasks:** price prediction, classification, and market segmentation
+
 **Best models**: ensemble methods, especially Gradient Boosting
 
 **Data Used**
@@ -18,13 +21,13 @@ This project explores how property prices and rental performance are shaped acro
 
 **What I Did**
 
-- Data preparation:
+- **Data preparation:**
 Cleaned missing values, handled outliers, encoded categorical variables, scaled features when needed, and inspected class imbalance.
-- Exploratory analysis:
+- **Exploratory analysis:**
 Used distributions, boxplots, correlations, and PCA to understand how price relates to property features and host behavior. This step guided which models were worth using.
-- Modeling:
+- **Modeling:**
 Built baseline linear models, then tested regularized regression, KNN, decision trees, random forests, support vector machines, and gradient boosting. I also framed pricing as a classification problem to study high-performing listings.
-- Clustering:
+- **Clustering:**
 Applied K-Means, DBSCAN, and hierarchical clustering to see whether natural market segments existed, especially in Airbnb data.
 
 **Results at a Glance**
