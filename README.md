@@ -14,7 +14,7 @@ This project explores how property prices and rental performance are shaped acro
 
 - A national USA real estate dataset that was explored but excluded from final modeling due to weak predictive signal
 
-Because the datasets are large, raw data files are not included. All notebooks are designed to run locally in Jupyter.
+**Because the datasets are large, raw data files are not included. All notebooks are designed to run locally in Jupyter.**
 
 **What I Did**
 
