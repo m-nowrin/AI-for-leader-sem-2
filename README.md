@@ -1,35 +1,39 @@
-# AI-for-leader-sem-2: Real Estate Market Analysis
-This project applies advanced data analytics and machine learning techniques to explore real estate trends, predict property prices, and assess investment opportunities using three major datasets:
+# Real Estate & Airbnb Market Analysis
+This project explores how property prices and rental performance are shaped across two different markets: traditional residential housing and short-term rentals. The work combines exploratory analysis with machine learning to understand what actually drives value, how predictable these markets are, and where simple models break down.
 
-- **USA Real Estate Dataset** (over 1 million listings)
-- **Austin, TX House Listings Dataset** (15,000 regional listings)
-- **Inside Airbnb Dataset** (75+ variables on rental properties)
+**Quick Summary**
+**Markets analyzed**: Austin housing and Airbnb listings
+**Main tasks:** price prediction, classification, and market segmentation
+**Best models**: ensemble methods, especially Gradient Boosting
 
-**⚠️ Desclaimer: This notebook is designed to run in a Jupyter environment locally. Datasets are not included in this repo due to size.**
+**Data Used**
 
+- Austin housing listings with property features like price, size, year built, home type, and school ratings
 
-## Project Overview
+- Inside Airbnb listings with host behavior, reviews, availability, and pricing
 
-Over the course of 12 weeks, I completed end-to-end data preparation, exploratory analysis, and model development, with core analysis completed during Weeks 2, 4, 6, 9, and 11. This project covers:
+- A national USA real estate dataset that was explored but excluded from final modeling due to weak predictive signal
 
-- **Data Cleaning & Preprocessing**:  
-Handled missing values, outliers, duplicates, categorical encoding, and class imbalance issues.
-  
-- **Exploratory Data Analysis (EDA)**:  
-Used univariate and bivariate techniques (histograms, boxplots, violin plots, heatmaps, and scatter plots) to identify trends and anomalies in real estate and short-term rental data.
+Because the datasets are large, raw data files are not included. All notebooks are designed to run locally in Jupyter.
 
-- **Multivariate Analysis**:  
-Applied principal component analysis (PCA) and correlation heatmaps to reveal hidden structure and guide feature selection.
+**What I Did**
 
-- **Predictive Modeling**:  
-Developed supervised learning models for price prediction:
-   - Linear Regression
-   - Random Forest Regressor (tuned with Grid Search)
+- Data preparation:
+Cleaned missing values, handled outliers, encoded categorical variables, scaled features when needed, and inspected class imbalance.
+- Exploratory analysis:
+Used distributions, boxplots, correlations, and PCA to understand how price relates to property features and host behavior. This step guided which models were worth using.
+- Modeling:
+Built baseline linear models, then tested regularized regression, KNN, decision trees, random forests, support vector machines, and gradient boosting. I also framed pricing as a classification problem to study high-performing listings.
+- Clustering:
+Applied K-Means, DBSCAN, and hierarchical clustering to see whether natural market segments existed, especially in Airbnb data.
 
-- **Model Evaluation**:  
-Compared model performance using R² scores, RMSE, and cross-validation.
+**Results at a Glance**
+- Gradient Boosting achieved the strongest regression performance on Airbnb pricing with R² around 0.72
+- Random Forest models reached about 82 percent accuracy for identifying high-priced or high-performing listings
+- Austin housing prices were driven mainly by size, bathrooms, and school quality
+- Airbnb pricing depended more on reviews, host responsiveness, and availability
+- Airbnb listings formed clear price tiers, while housing prices varied more continuously
 
----
 
 ## Technologies Used
 
@@ -37,16 +41,6 @@ Compared model performance using R² scores, RMSE, and cross-validation.
 - Jupyter Notebook (via Anaconda Navigator)  
 - Machine Learning: Linear Regression, Random Forest, PCA, Clustering  
 - Git & GitHub
-
----
-
-## Key Findings
-
-- Location, living area, and number of bathrooms are consistently strong predictors of real estate value.
-- Airbnb pricing is highly nonlinear and best predicted using ensemble models like Random Forest.
-- National-level real estate datasets exhibit lower predictive power due to heterogeneity, whereas regional data (Austin) produce more accurate models.
-- Identified potential for clustering and segmentation to guide real estate investment strategies.
-
 ---
 
 
